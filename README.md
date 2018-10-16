@@ -5,16 +5,16 @@ wybieramy środowisko PROD/TEST/DEV a później dzieje się magia :)
 Konwencja nazewnicza:
 
 VM:
-<name><env>
+VMnameenv
 
 NIC:
-<VMname>-<nic>
+VMname-nic
 
 PubIP:
-<vmname><pubip>
+vmnamepubip
 
 NSG:
-<vmname><NSGname>
+vmnameNSGname
 
 Ewentualnie można dodać lokalizację jeżeli mamy zasoby rozsiane po całym świecie.
 
