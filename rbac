@@ -1,0 +1,16 @@
+{
+  "Name": "Kontrola VM",
+  "Id": "cadb4a5a-4e7a-47be-84db-05cad13b6769",
+  "IsCustom": true,
+  "Description”: “VM and Support",
+  "Actions": [
+„Microsoft.Support/*”,
+„Microsoft.Compute/VirtualMachies/start/action”,
+„Microsoft.Compute/VirtualMachines/stop/action” 
+],
+  "NotActions": [
+  ],
+  "AssignableScopes": [
+    "/subscriptions/XXXXXXXXXXXXXXXXXXX",
+  ]
+}
