@@ -8,7 +8,7 @@
     "adminPassword": {
       "reference": {
         "keyVault": {
-          "id": "/subscriptions/d5fd0cde-490b-4a76-a233-1ec82c7b3357/resourceGroups/test50/providers/Microsoft.KeyVault/vaults/dupaklucz"
+          "id": "/subscriptions/ZCZXS#33-ZXCA-ZXCV-aZXC-0ej82v7f3357/resourceGroups/test50/providers/Microsoft.KeyVault/vaults/dupaklucz"
         },
         "secretName": "password2"
       }
