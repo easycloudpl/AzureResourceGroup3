@@ -3,10 +3,15 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "adminUsername": {
-      "value": "dla"
+      "value": "vmadmin"
     },
     "adminPassword": {
-      "value": "Strongpassword123"
+      "reference": {
+        "keyVault": {
+          "id": "/subscriptions/d5fd0cde-490b-4a76-a233-1ec82c7b3357/resourceGroups/test50/providers/Microsoft.KeyVault/vaults/dupaklucz"
+        },
+        "secretName": "password2"
+      }
     }
   }
 }
